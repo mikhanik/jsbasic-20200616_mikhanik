@@ -23,8 +23,6 @@ function isValid(name) {
   return true;
 }
 
-// *имя не пустое, без пробелов, минимум 4 символа*.
-
 function sayHello() {
   let userName = prompt('Введите ваше имя');
 
