@@ -3,8 +3,6 @@
  * @returns {string}
  */
 function camelize(str) {
-  if (str === '') return str;
-
   let arrayStrings = str.split('-');
   
   let camelizedString = arrayStrings.map( (item, index) => {
