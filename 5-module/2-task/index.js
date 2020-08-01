@@ -1,3 +1,8 @@
 function toggleText() {
-  // ваш код...
+  const button = document.querySelector(".toggle-text-button");
+  const textElement = document.querySelector("#text");
+
+  button.addEventListener("click", function() {
+    textElement.toggleAttribute("hidden");
+  });
 }
